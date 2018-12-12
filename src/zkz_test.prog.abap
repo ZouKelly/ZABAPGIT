@@ -11,6 +11,7 @@ SELECT DISTINCT ernam, matkl FROM mara
 IF sy-subrc = 0.
   LOOP AT gt_mara INTO DATA(lwa_mara).
     write: 'test'.
+    "Updated from github
   ENDLOOP.
 
 ENDIF.
