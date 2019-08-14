@@ -12,6 +12,7 @@ IF sy-subrc = 0.
   LOOP AT gt_mara INTO DATA(lwa_mara).
     write: 'test'.
     "Updated from github
+    "Update from SAP
   ENDLOOP.
 
 ENDIF.
